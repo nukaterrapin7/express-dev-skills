@@ -1,8 +1,8 @@
 const todos = [
-    {id: 125223, todo: 'HTML', learned: true},
-    {id: 127904, todo: 'CSS', done: true},
-    {id: 139608, todo: 'Python', done: false},
-    {id: 148702, todo: 'Django', done: false}
+    {id: 125223, skill: 'HTML', learned: true},
+    {id: 127904, skill: 'CSS', learned: true},
+    {id: 139608, skill: 'Python', learned: false},
+    {id: 148702, skill: 'Django', learned: false}
   ];
   
   module.exports = {
@@ -10,6 +10,6 @@ const todos = [
   };
   
   function getAll() {
-    return todos;
+    return skills;
   }
  
