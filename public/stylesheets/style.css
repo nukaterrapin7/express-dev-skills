@@ -1,8 +1,13 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px fantasy, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font: 45px;
+  color: crimson;
 }
 
 a {
-  color: #00B7FF;
+  color: #1bde7d;
 }
